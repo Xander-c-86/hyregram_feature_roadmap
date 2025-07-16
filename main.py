@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page Config
-st.set_page_config(page_title="Hyregram feature roadmap release", layout="wide")
+st.set_page_config(page_title="HyreDragon feature roadmap release", layout="wide")
 
 # Custom CSS for Auto Light/Dark Mode Detection
 theme_css = """
@@ -29,7 +29,7 @@ theme_css = """
 st.markdown(theme_css, unsafe_allow_html=True)
 
 # Title & Introduction
-st.markdown("<div class='title'>🚀Hyregram feature roadmap release</div>", unsafe_allow_html=True)
+st.markdown("<div class='title'>🚀HyreDragon feature roadmap release</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>From AI-agent powered Hiring to Predictive Analytics – Explore Our Evolution</div>", unsafe_allow_html=True)
 
 # Featured Highlights
@@ -58,36 +58,36 @@ phases = {
     "🚀 Phase 2 (Feb - April) - In progress": [
         "Round 1: AI & Custom MCQs (Critical Thinking, Logic, Psychometrics)",
         "Round 2: MERN Stack Coding Assessments",
-        "Round 3: AI-Human Video Interviews + Speech-to-Text",
+        "Round 3: AI-Human Video Interviews + Speech-to-Text - tech discovery",
         "Proctoring Option - custom for new rounds",
         "Job Intelligence: FAANG, Big 7 Job Aggregator, Career Path Guide",
         "Jobs trending dashboard - job based approach",
         "Job Route Map - user can select a role to see how to reach the spot",
         "Proctoring System: Custom AI Proctoring for Assessments",
-        "Resume Matchmaker AI & GDPR/SOC Compliance",
+        "Resume Matchmaker AI",
         "One-Click Interview Invites & Multi-Format Report Downloads",
-        "SOC II Type 2 Compliance",
-        "Multi Factor Authentication "
+
     ],
     "🔥 Phase 3 (April - July)": [
         "Round 1: Advanced Tech Assessments (Cloud, AIML, DSA) - In progress ",
         "Round 2: AI-Driven Coding Tests & Mock Interviews - In progress",
-        "Round 3: AI Video Interview Bot",
-        "Ai Agents build/conversion (resume builder, matchmaker, etc) - Tech discovery",
-        "Online Hackathon Platform - Fully Online Hackathon and Ideathon Platform",
+        "Round 3: AI Video Interview Bot - in progress",
+        "Ai Agents build/conversion (resume builder, matchmaker) - in progress",
+        
         "AI Voice Agents - Candidate Screening & Scheduling - In progress ",
-        "ATS - adding more features - Tech discovery",
-        "User Social Profiling - Personality Types, social media handles, coding handles, auto resume update and download etc",
-        "One-Click Reach:  Send personalized interview invites or offers directly to candidates through the platform. Streamline communication and reduce back-and-forth with automated scheduling tools - Tech discovery",
-        "Online Chatbot - interact with Dashboard - L2 - Tech discovery ",
-        "Reports Download - multi format - Tech discovery ",
-        "Coding Mock Test environment: Practise background, skill and coding interviews - Tech discovery",
+        "ATS - adding more features - in progress",
+        "User Social Profiling - tech discovery in progress",
+        "Online Chatbot - interact with Dashboard - L2 - tech discovery ",
+        "Reports Download - in progress ",
         "Pre-Screened Talent Pool: Access a vetted database of candidates who've completed skill assessments & video interviews. Skip initial screening rounds and fast-track to final interviews or offers. - In progress",
-        "Plagiarism checker"
+        "SOC II Type 2 Compliance",
+        "Multi Factor Authentication "
     ],
     "⚡ Phase 4 (July - Sept)": [
+        "Online Hackathon Platform - Fully Online Hackathon and Ideathon Platform",
         "Game-Based Hiring Assessments for Fun & Insightful Hiring",
         "Campus Hiring Tools - AI-Driven University Recruitment",
+        "Code Plagiarism checker - tech discovery in progress"
         "Predictive Analytics - AI to Forecast Candidate Success",
         "Candidate Personalisation - Level 1",
         "Voice Agents to conduct intial candidate screening, scheduling, conducting",
